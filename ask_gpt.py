@@ -70,8 +70,7 @@ def main() -> None:
             break
 
         response_text = ask_gpt(input_text)
-        print_yellow_text(f"\nResponse: {response_text}")
-        print()
+        print_yellow_text(f"\nResponse: {response_text}\n")
 
 
 if __name__ == "__main__":
